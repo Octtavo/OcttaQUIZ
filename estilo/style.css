@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'Rosario', sans-serif;
+    src: url('../fontes/Rosario-Italic-VariableFont_wght.ttf')
+    format('truetype');
+    font-style: normal;
+}
+:root{
+    --cor01: #1A8A83;
+    --cor02: #CBF2E6;
+    
+    --fonte-01: 'Rosario', sans-serif;
+}
+
+body{
+    background-color: var(--cor02);
+}
+#cabecalho{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--cor01);
+    height: 54px;
+    border-bottom: 3px solid white;
+}
+#t1{
+    position: absolute;
+    left: 10%;
+    top: 1px;
+    font-family: var(--fonte01);
+    color: white;
+    margin-top: 6px;
+    max-width: 700px;
+    text-shadow: 1px 4px 2px rgba(0, 0, 0, 0.671);
+}
+main{
+    position: relative;
+    max-height: 1000px;
+}
+#t2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    color: #c4b9b9;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px white;
+}
+nav{
+    position: relative;
+}
+nav > a >button{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    left: 100px;
+    top: 50%;
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 30px;
+    transform: translate(160%, -50%);
+    text-decoration: none;
+}
+#painel{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 93%);
+    width: 300px;
+    height: 235px;
+    background-color: var(--cor01);    
+    border: 3px solid #12756F;
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+}
+#botao1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+#botao2{
+    display: flex;
+    justify-content: center;
+    color: white;  
+}
+.btn{
+     background-color: rgba(0, 0, 0, 0.212);
+     color: white;
+     font-size: 21px;
+     margin: 18px;
+     padding: 13px 29px;
+     border: 1px solid rgba(0, 0, 0, 0.048);
+     border-radius: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.397);
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.548);
+    background-attachment: fixed;
+}
