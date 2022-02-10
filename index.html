@@ -7,14 +7,20 @@
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./estilo/style.css">
     <title>OcttaQUIZ</title>
-</head>
+</head>               
 <body>
-    <header id="cabecalho">
+                           <!--Cabeçalho inicial-->
+        <header id="cabecalho">
+                
+                            <!--Primeiro titulo-->
             <h1 id="t1">
                 OcttaQUIZ
             </h1>
-    </header>
-    <main>
+        </header>
+<main> 
+
+                            <!--Simbolo de info-->
+
         <div id="info">
             <a href="./creditos/creditos.html">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="currentColor" class="bi bi-exclamation-diamond-fill" viewBox="0 0 16 16">
@@ -23,30 +29,37 @@
             </a>
         </div>
 
+                              <!--Segundo titulo-->
+
         <div id="t2">
             <h1>
                 START GAME
             </h1>
         </div>
 
-        <div id="painel">
+                              <!--Meu Painel-->
 
-            <div id="botao1">
-                <a href="./fase1/primeirafase.html">
-                    <button class="btn">
+    <div id="painel">
+        <div id="botao1">
+            <!--<a href="./fase1/primeirafase.html">-->
+                <button onclick="comecar()" class="btn">
                         START
-                    </button>
-                </a>
-            </div>
-            
-            <div id="botao2">
-               <a href="./paineldefases/fases.html">
-                   <button class="btn">
-                       FASES
-                   </button>
-               </a>
-            </div>
+                </button>
+            <!--</a>-->
         </div>
-    </main>
+            
+        <div id="botao2">
+            <!--<a href="./paineldefases/fases.html">-->
+                <button onclick="fases()"  class="btn">
+                       FASES
+                </button>
+            <!--</a>-->
+        </div>
+    </div>
+</main>
+
+                               <!--JavaScript-->
+    
+     <script src="estilo/script.js"></script>
 </body>
 </html>
