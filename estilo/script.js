@@ -1,3 +1,5 @@
+
+
 function comecar() {
     window.location.href = './fase1/primeirafase.html'
 }
