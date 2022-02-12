@@ -1,4 +1,6 @@
 @charset "UTF-8";
+
+                                             /*CONFIGURAÇÕES GERAIS*/
 *{
     margin: 0px;
     padding: 0px;
@@ -9,6 +11,11 @@ body{
     padding: 10px;
 
 }
+                                             /*CONFIGURAÇÕES GERAIS*/
+
+
+
+                                             /*CONFIGURAÇÃO DO MEU CABEÇALHO*/
 header{
     margin: auto;
     margin-top: 10px;
@@ -23,20 +30,39 @@ header h1{
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.781);
 }
+                                             /*CONFIGURAÇÃO DO MEU CABEÇALHO*/
+
+
+
+                                             /*CONFIGURAÇÃO DO CONTEUDO PRINCIPAL*/
 main{
     margin-top: 10px;
     border-top: 4px solid rgba(255, 255, 255, 0.452);
     border-bottom: 10px;
 }
+                                             /*CONFIGURAÇÃO DO CONTEUDO PRINCIPAL*/
+
+
+
+                                              /*CONFIGURAÇÃO DA MINHA PRINMEIRA DIVISÃO*/
 #divisao1{
     display: flex;
     justify-content: space-evenly;
 }
+                                              /*CONFIGURAÇÃO DA MINHA PRIMEIRA DIVISÃO*/
 
-.botao{
+
+
+                                             /*CONFIGURAÇÃO DAS CLASSES BOTÃO*/
+.botao{ 
     margin: 40px 10px;
     
 }
+                                             /*CONFIGURAÇÃO DAS CLASSES BOTÃO*/
+
+
+
+                                             /*CONFIGURAÇÃO DAS CLASSES BTN*/
 .btn{
     background-color: #1aa9984f;
     color: white;
@@ -46,21 +72,40 @@ main{
     border: 1px solid #1AA998;
     border-radius: 8px;
 }
+                                             /*CONFIGURAÇÃO DAS CLASSES BTN*/
+
+
+
+                                             /*CONFIGURAÇÃO DO HOVER NOS BTN*/
 .btn:hover{
     cursor: pointer;
     background-color: rgba(255, 255, 0, 0.301);
     color: black;
     border: 1px solid rgba(0, 0, 0, 0.575);
 }
+                                             /*CONFIGURAÇÃO DO HOVER NOS BTN*/   
+                                             
+                                             
+
+                                             /*CONFIGURAÇÃO DA MINHA SEGUNDA DIVISÃO*/
 #divisao2{
     display: flex;
     justify-content: space-evenly;
     margin-top: -50px;
 }
+                                             /*CONFIGURAÇÃO DA MINHA SEGUNDA DIVISÃO*/
+
+
+                                             /*CONFIGURAÇÃO DO MEU RODAPÉ*/
 footer{
     text-align: center;
     margin-top: 100px;
 }
+                                             /*CONFIGURAÇÃO DO MEU RODAPÉ*/
+
+
+
+                                             /*CONFIGURAÇÃO DO BOTÃO DE VOLTAR*/
 #voltar{
     background-color: #1aa9984f;
     color: rgba(255, 255, 255, 0.829);
@@ -71,9 +116,15 @@ footer{
     border-radius: 9px;
     padding: 2px;
 }
+                                             /*CONFIGURAÇÃO DO BOTÃO DE VOLTAR*/
+
+
+
+                                             /*CONFIGURAÇÃO DO HOVER DO BOTÃO DE VOLTAR*/
 #voltar:hover{
     cursor: pointer;
     background-color: rgba(255, 0, 0, 0.342);
     color: black;
     border: 1px solid white;
 }
+                                             /*CONFIGURAÇÃO DO HOVER DO BOTÃO DE VOLTAR*/

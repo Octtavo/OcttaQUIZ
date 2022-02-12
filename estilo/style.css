@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
-
-
-         /*Configurações gerais*/
+                                             /*CONFIGURAÇÕES GERAIS*/
 *{
     margin: 0px;
     padding: 0px;
@@ -23,11 +21,11 @@
 body{
     background-color: var(--cor02);
 }
-         /*Configurações gerais*/
+                                             /*CONFIGURAÇÕES GERAIS*/
 
 
 
-         /*CSS DO MEU CABEÇALHO*/
+                                             /*CSS DO MEU CABEÇALHO*/
 #cabecalho{
     text-align: center;
     background-color: var(--cor01);
@@ -41,18 +39,20 @@ body{
     color: white;
     text-shadow: 1px 4px 2px rgba(0, 0, 0, 0.671);
 }
-          /*CSS DO MEU CABEÇALHO*/
+                                             /*CSS DO MEU CABEÇALHO*/
 
 
 
-          /*MEU CONTEUDO PRINCIPAL*/
+                                             /*MEU CONTEUDO PRINCIPAL*/
 main{
     position: relative;
     max-height: 1000px;
 }
+                                             /*MEU CONTEUDO PRINCIPAL*/
 
 
-         /*CONFIGURAÇÃO DO BOTÃO DE INFO*/
+
+                                             /*CONFIGURAÇÃO DO BOTÃO DE INFO*/
 #info{
     position: absolute;
     top: 10%;
@@ -65,10 +65,11 @@ main{
 #info svg{
     color: black;
 }  
-         /*CONFIGURAÇÃO DO BOTÃO DE INFO*/
+                                             /*CONFIGURAÇÃO DO BOTÃO DE INFO*/
 
 
-     /*CONFIGURAÇÃO DO MEU SEGUNDO TITULO*/
+
+                                             /*CONFIGURAÇÃO DO MEU SEGUNDO TITULO*/
 #t2{
     position: absolute;
     left: 50%;
@@ -82,11 +83,11 @@ main{
     font-variant: small-caps;
     text-shadow: 2px 2px 2px white;
 }
-    /*CONFIGURAÇÃO DO MEU SEGUNDO TITULO*/
+                                             /*CONFIGURAÇÃO DO MEU SEGUNDO TITULO*/
 
 
 
-     /*CONFIGURAÇÃO DO MEU PAINEL CENTRAL*/
+                                             /*CONFIGURAÇÃO DO MEU PAINEL CENTRAL*/
 #painel{
     position: absolute;
     display: flex;
@@ -102,10 +103,11 @@ main{
     border-radius: 16px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
 } 
-    /*CONFIGURAÇÃO DO MEU PAINEL CENTRAL*/
+                                             /*CONFIGURAÇÃO DO MEU PAINEL CENTRAL*/
 
 
-    /*CONFIGURAÇÃO DOS BOTÕES DO PAINEL/DIVS*/
+
+                                             /*CONFIGURAÇÃO DOS BOTÕES DO PAINEL/DIVS*/
 #botao1{
     display: flex;
     justify-content: center;
@@ -116,11 +118,11 @@ main{
     justify-content: center;
     color: white;  
 }
-     /*CONFIGURAÇÃO DOS BOTÕES DO PAINEL/DIVS*/
+                                             /*CONFIGURAÇÃO DOS BOTÕES DO PAINEL/DIVS*/
 
 
 
-    /*CONFIGURAÇÃO DOS BOTÕES DO PAINEL/CLASS*/
+                                             /*CONFIGURAÇÃO DOS BOTÕES DO PAINEL/CLASS*/
 .btn{
      background-color: rgba(0, 0, 0, 0.212);
      color: white;
@@ -130,10 +132,11 @@ main{
      border: 1px solid rgba(0, 0, 0, 0.048);
      border-radius: 10px;
 }
-     /*CONFIGURAÇÃO DOS BOTÕES DO PAINEL/CLASS*/
+                                             /*CONFIGURAÇÃO DOS BOTÕES DO PAINEL/CLASS*/
 
 
-             /*HOVER DOS MEUS BOTÕES*/
+                                             
+                                             /*HOVER DOS MEUS BOTÕES*/
 .btn:hover{
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.397);
@@ -141,9 +144,4 @@ main{
     border: 1px solid rgba(0, 0, 0, 0.548);
     background-attachment: fixed;
 }
-              /*HOVER DOS MEUS BOTÕES*/
-
-
-
-
-             /*MEU CONTEUDO PRINCIPAL*/
+                                             /*HOVER DOS MEUS BOTÕES*/
