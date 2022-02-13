@@ -1,6 +1,6 @@
                                                    //Configuração da página inicial
 
-alert("Olá, aqui vai um pequeno aviso aos novos jogadores, antes de tudo a companhia OcttaQUIZ pede que leiam as descrições, basta clicar no i (de informação) que está logo abaixo")
+/*alert("Olá, aqui vai um pequeno aviso aos novos jogadores, antes de tudo a companhia OcttaQUIZ pede que leiam as descrições, basta clicar no i (de informação) que está logo abaixo")*/
             
 function comecar() {
     window.location.href = './fase1/primeirafase.html'
@@ -47,21 +47,22 @@ function botao9() {
 function botao10() {
     window.location.href = '../fase10/decimafase.html'
 }
-
-function retornarpainel() {
-    window.location.href = '../index.html'
-}
                                                       //CONFIGURAÇÃO DO PAINEL DE FASES
 
+ 
 
-
-
-                                                      //CONFIGURAÇÃO DA AREA DE CREDITOS
-function retornarcreditos() {
+                                                      //CONFIGURAÇÃO DOS BTN DE RETORNAR -G
+   
+function retornar() {
     window.location.href = '../index.html'
 }
+                                                      //CONFIGURAÇÃO DOS BTN DE RETORNAR -G
+                                         
+                                                         
 
-                                                       //CONFIGURAÇÃO DA AREA DE CREDITOS
+
+
+                                                      
 
 
 
