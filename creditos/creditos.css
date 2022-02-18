@@ -9,6 +9,7 @@ body{
     background-image: linear-gradient(to top tomato, yellow);
 }
 header{
+    margin-top: 15px;
     color: black;
     text-align: center;
 }
