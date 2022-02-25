@@ -57,6 +57,12 @@ function retornar() {
     window.location.href = '../index.html'
 }
                                                       //CONFIGURAÇÃO DOS BTN DE RETORNAR -G
+
+
+                                                      //CONFIGURANDO AS RESPOSTAS CORRETAS -G
+                                                
+                                                
+                                                      
                                          
                                                          
 
