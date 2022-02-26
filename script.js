@@ -61,9 +61,20 @@ function retornar() {
 
                                                       //CONFIGURANDO AS RESPOSTAS CORRETAS -G
                                                 
-                                                
-                                                      
-                                         
+function proxima(fases) {
+    fases = window.location.href = '../fase2/segundafase.html'   
+}                            
+                  
+                                                     //CONFIGURANDO AS RESPOSTAS CORRETAS -G
+
+
+
+                                                     //CONFIGURANDO AS RESPOSTAS INCORRETAS -G
+
+function incorreta() {
+    window.location.href = '../index.html'
+}
+                                                                                               
                                                          
 
 
