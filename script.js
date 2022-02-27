@@ -61,19 +61,21 @@ function retornar() {
 
                                                       //CONFIGURANDO AS RESPOSTAS CORRETAS -G
                                                 
-function proxima(fases) {
-    fases = window.location.href = '../fase2/segundafase.html'   
-}                            
-                  
+function avancarFase(correta) {
+    var certa = document.getElementById("correta")
+   if( certa == correta){
+       window.location.href = '../segundafase.html';
+   } else {
+       alert("Infelizmente você errou a reposta tente novamente")
+       window.location.href = '../index.html';
+   }
+}              
                                                      //CONFIGURANDO AS RESPOSTAS CORRETAS -G
 
 
 
-                                                     //CONFIGURANDO AS RESPOSTAS INCORRETAS -G
+                                                    
 
-function incorreta() {
-    window.location.href = '../index.html'
-}
                                                                                                
                                                          
 
