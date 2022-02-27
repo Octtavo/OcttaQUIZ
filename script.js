@@ -63,10 +63,10 @@ function retornar() {
                                                 
 function avancarFase(correta) {
     var certa = document.getElementById("correta")
-   if( certa == correta){
-       window.location.href = '../segundafase.html';
+   if( correta == certa){
+       window.location.href = '../fase2/segundafase.html';
    } else {
-       alert("Infelizmente você errou a reposta tente novamente")
+       alert("Infelizmente você errou a reposta, tente novamente")
        window.location.href = '../index.html';
    }
 }              
