@@ -64,6 +64,10 @@ main{
 }
 #info svg{
     color: black;
+}
+#info:hover{
+    cursor: pointer;
+    color: #c4b9b9;
 }  
                                              /*CONFIGURAÇÃO DO BOTÃO DE INFO*/
 
