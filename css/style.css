@@ -1,28 +1,74 @@
-header{
-    display: flex;
-    justify-content: center;
+@font-face {
+    font-family: 'Gloria Hallelujah';
+    src: url(../fontes/GloriaHallelujah-Regular.ttf);
 }
-main{
-    position: absolute;
+:root{
+    --color-linear-header-1: #8540a5;
+    --color-linear-header-2: #995db5d8;
+    --font-h1: 'Gloria Hallelujah';
+}
+
+
+header{
+    background-image: linear-gradient(12deg, #642183, #995db5, #642183);
+    height: 100vh;
+}
+/*FOR DESKTOP*/
+#container-header{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    position: relative;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
-.grid{
-    background-color: aqua;
-    border-radius: 4px;
-}
-.g-col-4{
-    width: 270px;
-    height: 270px;
-}
-#d-grid-gap-2{
-    position: absolute;
-    left: 50%;
-    top: 50%;d
-    transform: translate(-50%, -50%);
-}
-#btn-btn-primary{
+/*FOR PHONE*/
+@media only screen and (max-width: 750px) {
+    #container-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #container-i1{
+        margin: 50px auto;
+    }
+    #container-header img{
+        display: none;
+    }
+  }
+
+
+
+
+
+
+
+#container-i1{
+    display: flex;
+    flex-direction: column;
     
-    width: 150px;
 }
+#info{
+    width: 250px;
+    color: white;
+}
+#info h1{
+    text-align: center;
+    font-family: var(--font-h1)
+}
+#info P{
+    text-align: center;
+    font-family: cursive;
+    margin-top: 10px;
+}
+#btns{
+    height: 50px;
+    margin-left: 20px;
+    background-color: #f7941f;
+    border: 1px solid black;
+}
+#btns:hover{
+    background-color: #d37a0e;
+}
+
