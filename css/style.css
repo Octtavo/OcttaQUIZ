@@ -7,8 +7,6 @@
     --color-linear-header-2: #995db5d8;
     --font-h1: 'Gloria Hallelujah';
 }
-
-
 header{
     background-image: linear-gradient(12deg, #642183, #995db5, #642183);
     height: 100vh;
@@ -37,13 +35,6 @@ header{
         display: none;
     }
   }
-
-
-
-
-
-
-
 #container-i1{
     display: flex;
     flex-direction: column;
@@ -62,7 +53,13 @@ header{
     font-family: cursive;
     margin-top: 10px;
 }
-#btns{
+#btn1{
+    height: 50px;
+    margin-left: 20px;
+    background-color: #f7941f;
+    border: 1px solid black;
+}
+#btn2{
     height: 50px;
     margin-left: 20px;
     background-color: #f7941f;
@@ -72,3 +69,12 @@ header{
     background-color: #d37a0e;
 }
 
+
+
+
+
+/*CONFIGURAÇÃO DE ESTILO DAS FASES*/
+
+#header-f1{
+    background: none;
+}

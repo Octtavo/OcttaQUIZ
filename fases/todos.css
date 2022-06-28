@@ -1,0 +1,31 @@
+:root{
+    --color-linear-header-1: #8540a5;
+    --color-linear-header-2: #995db5d8;
+    --font-h1: 'Gloria Hallelujah';
+}
+body{
+    background-image: linear-gradient(22deg, var(--color-linear-header-1), var(--color-linear-header-2), var(--color-linear-header-1));
+    height: 100%;
+}
+/*FOR DESKTOP*/
+#header-f1{
+    margin: 20px auto;
+    width: 500px;
+}
+/*FOR PHONES*/
+@media only screen and (max-width: 600px) {
+    #header-f1{
+        width: 300px;
+    }
+  }
+
+main{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.card{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
