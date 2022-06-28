@@ -1,151 +1,28 @@
-@charset "UTF-8";
-
-                                             /*CONFIGURAÇÕES GERAIS*/
-*{
-    margin: 0px;
-    padding: 0px;
+header{
+    display: flex;
+    justify-content: center;
 }
-@font-face {
-    font-family: 'Rosario', sans-serif;
-    src: url('../fontes/Rosario-Italic-VariableFont_wght.ttf')
-    format('truetype');
-    font-style: normal;
-}
-:root{
-    --cor01: #1A8A83;
-    --cor02: #CBF2E6;
-    
-    --fonte-01: 'Rosario', sans-serif;
-}
-
-body{
-    background-color: var(--cor02);
-}
-                                             /*CONFIGURAÇÕES GERAIS*/
-
-
-
-                                             /*CSS DO MEU CABEÇALHO*/
-#cabecalho{
-    text-align: center;
-    background-color: var(--cor01);
-    height: 70px;
-    padding: 5px;
-    border-bottom: 6px solid white;
-}
-#t1{
-    font-family: var(--fonte01);
-    font-size: 7.5vh;
-    color: white;
-    text-shadow: 1px 4px 2px rgba(0, 0, 0, 0.671);
-}
-                                             /*CSS DO MEU CABEÇALHO*/
-
-
-
-                                             /*MEU CONTEUDO PRINCIPAL*/
 main{
-    position: relative;
-    max-height: 1000px;
-}
-                                             /*MEU CONTEUDO PRINCIPAL*/
-
-
-
-                                             /*CONFIGURAÇÃO DO BOTÃO DE INFO*/
-#info{
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    transform: translate( -10%, 100%);
-}
-#info > a {
-    text-decoration: none;
-}
-#info svg{
-    color: black;
-}
-#info:hover{
-    cursor: pointer;
-    color: #c4b9b9;
-}  
-                                             /*CONFIGURAÇÃO DO BOTÃO DE INFO*/
-
-
-
-                                             /*CONFIGURAÇÃO DO MEU SEGUNDO TITULO*/
-#t2{
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, 80%);
+    transform: translate(-50%, -50%);
 }
-#t2 > h1{
-    text-align: center;
-    color: #c4b9b9;
-    font-size: 50px;
-    font-variant: small-caps;
-    text-shadow: 2px 2px 2px white;
+.grid{
+    background-color: aqua;
+    border-radius: 4px;
 }
-                                             /*CONFIGURAÇÃO DO MEU SEGUNDO TITULO*/
-
-
-
-                                             /*CONFIGURAÇÃO DO MEU PAINEL CENTRAL*/
-#painel{
+.g-col-4{
+    width: 270px;
+    height: 270px;
+}
+#d-grid-gap-2{
     position: absolute;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, 110%);
-    min-width: 250px;
-    height: 200px;
-    background-color: var(--cor01);    
-    border: 3px solid #12756F;
-    border-radius: 16px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
-} 
-                                             /*CONFIGURAÇÃO DO MEU PAINEL CENTRAL*/
-
-
-
-                                             /*CONFIGURAÇÃO DOS BOTÕES DO PAINEL/DIVS*/
-#botao1{
-    display: flex;
-    justify-content: center;
-    color: white;
+    top: 50%;d
+    transform: translate(-50%, -50%);
 }
-#botao2{
-    display: flex;
-    justify-content: center;
-    color: white;  
+#btn-btn-primary{
+    
+    width: 150px;
 }
-                                             /*CONFIGURAÇÃO DOS BOTÕES DO PAINEL/DIVS*/
-
-
-
-                                             /*CONFIGURAÇÃO DOS BOTÕES DO PAINEL/CLASS*/
-.btn{
-     background-color: rgba(0, 0, 0, 0.212);
-     color: white;
-     font-size: 21px;
-     margin: 18px;
-     padding: 13px 29px;
-     border: 1px solid rgba(0, 0, 0, 0.048);
-     border-radius: 10px;
-}
-                                             /*CONFIGURAÇÃO DOS BOTÕES DO PAINEL/CLASS*/
-
-
-                                             
-                                             /*HOVER DOS MEUS BOTÕES*/
-.btn:hover{
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.397);
-    color: black;
-    border: 1px solid rgba(0, 0, 0, 0.548);
-    background-attachment: fixed;
-}
-                                             /*HOVER DOS MEUS BOTÕES*/
