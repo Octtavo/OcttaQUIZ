@@ -3,13 +3,20 @@ function comecar(){
 }
 
 
-
-const respostas = {
-    'fase1': document.getElementById('correta')
+//aleta para as erradas
+function erradas(){
+    alert('INFELZIMENTE VOCÊ ERROU, TENTE NOVAMENTE!')
 }
 
+
+const fases = [1, 2]
 function avancar(){
-    if( respostas.fase1 == 'correta'){
-        alert('')
+    if(fases[0] == 1){
+        window.location.href = 'fase2.html'
+    }else{
+        if(fases[1] > fases[0]){
+            alert('')
+        }
+
     }
 }
